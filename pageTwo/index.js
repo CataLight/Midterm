@@ -12,10 +12,7 @@ var json = {
             name: "name",
             title: "What is your name?",
             isRequired: true
-        }
-            ]
-        }, {
-            questions: [
+        },
         {
             type: "text",
             name: "email",
@@ -27,26 +24,12 @@ var json = {
         {
           questions:[
         {
-            type: "Comment",
-            name: "know",
-            title: "How do you know the Candidate?",
-            isRequired: true
-          }
-          ]
-        },
-        {
-          questions:[
-        {
-            name: "startdate",
+           name: "startdate",
             type: "text",
             inputType: "date",
             title: "When did the Candidate start working in your company",
             isRequired: true
-          }
-          ]
-        },
-        {
-          questions:[
+          },
         {
             name: "enddate",
             type: "text",
@@ -58,7 +41,13 @@ var json = {
         },
         {
           questions:[
-        {
+        {  type: "Comment",
+            name: "know",
+            title: "How do you know the Candidate?",
+            isRequired: true
+            
+          },
+          {
             type: "Comment",
             name: "rehire",
             title: "Why did the Candidate leave the company?",
@@ -73,11 +62,7 @@ var json = {
             name: "accomplishment",
             title: "What was the Candidate biggest accomplishment while working for your company?",
             isRequired: true
-          }
-          ]
-        },
-        {
-          questions:[
+          },
         {
             type: "Comment",
             name: "getalong",
@@ -93,11 +78,7 @@ var json = {
             name: "Phone",
             title: "If you had the opportunity, would you re-hire this job candidate? Why?",
             isRequired: true
-          }
-          ]
-        },
-        {
-          questions:[
+          },
         {
          type: "Comment",
             name: "ask",
