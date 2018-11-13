@@ -14,12 +14,12 @@ var json = {
         {
             type: "text",
             name: "name",
-            title: "What is your name:",
+            title: "What is your name?",
             isRequired: true
         }, {
             type: "text",
             name: "email",
-            title: "What is your Email Address:",
+            title: "What is your Email Address?",
             isRequired: true
         },{
           type: "Comment",
