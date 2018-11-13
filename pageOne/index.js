@@ -14,19 +14,14 @@ var json = {
         {
             type: "text",
             name: "name",
-            title: "What is your name?",
+            title: "Your name:",
             isRequired: true
         }, {
             type: "text",
             name: "email",
-            title: "What is your Email Address?",
+            title: "Your Email Address:",
             isRequired: true
-        },{
-          type: "Comment",
-            name: "know",
-            title: "How do you know the Candidate?",
-            isRequired: true
-          },
+        },
           {
           name: "startdate",
             type: "text",
@@ -41,6 +36,12 @@ var json = {
             title: "When did the Candidate leave your company?",
             isRequired: true
           },
+          {
+            type: "Comment",
+              name: "know",
+              title: "How do you know the Candidate?",
+              isRequired: true
+            },
           {
           type: "Comment",
             name: "rehire",
