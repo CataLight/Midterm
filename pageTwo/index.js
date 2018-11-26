@@ -95,7 +95,7 @@ window.survey = new Survey.Model(json);
 survey
     .onComplete
     .add(function (result) {
-        window.location = "thankyou2.html";;
+        window.location = "thankyou2.html";
     });
 
 survey.showProgressBar = 'bottom';
